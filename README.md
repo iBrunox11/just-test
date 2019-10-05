@@ -1,6 +1,10 @@
 # just-test
 
-> A Vue.js project
+> Considerações importantes:
+Utilizei o state do vuex  sem persistir os dados, mas é bem simples de implementar algo para que ele seja persistido, podemos utilizar o localStorage, por exemplo.
+Quem quiser copiar o projeto e testar, eu super recomendo uma lib que trabalha com Local Storage, Cookies etc: vuex-persistedstate
+
+Visit https://github.com/robinvdvleuten/vuex-persistedstate
 
 ## Build Setup
 
@@ -14,5 +18,3 @@ npm run dev
 # build for production with minification
 npm run build
 ```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
